@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?> <!--Por não possuir nada acima do LinearLayout, a "match_parent" acaba sendo a tela.-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!--O id é seguido de um @ que serve para referenciar um recurso da pasta "res",
+    acrescentamos na sequência o sinal de "+" que é usado para falar que estamos criando um recurso,
+    ou seja, uma identificação para a lista. Também digitamos o tipo de recurso que estamos manipulando,
+    nesse caso, um id -->
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lista_alunos">
+
+    </ListView>
+<!-- Vou deixar esse código para ter uma noção de curva de aprendizado
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fernando" />
+    &lt;!&ndash; O "wrap_content" funciona como uma embalagem,
+            fazendo o campo ter o tamanho daquilo que se precisa mostrar na tela &ndash;&gt;
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Klaus" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Moleque" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alfredo" />
+-->
+
+</LinearLayout>
